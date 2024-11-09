@@ -6,24 +6,32 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    background-color: #f4f6f9; /* Light Gray Background */
+    color: #333; /* Text Gray */
+    font-family: 'Roboto', sans-serif;
     line-height: 1.6;
-    color: #333;
-    background-color: #f9f9f9;
+}
+header, h1, h2 {
+    color: #1a3d7c; /* Dark Blue for headings */
+    font-family: 'Playfair Display', serif;
 }
 
+
 .container {
+    a {
+    color: #008080; /* Teal for links */
+}
+a:hover {
+    color: #004d4d; /* Darker teal on hover */
+    text-decoration: underline;
+}
+
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
 }
 
-header {
-    text-align: center;
-    padding: 20px;
-    background-color: #282c34;
-    color: #fff;
-}
+
 
 header h1 {
     font-size: 2em;
